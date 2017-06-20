@@ -211,7 +211,7 @@
         <source-file src="libs/android/avocarrot-3.7.6.jar" target-dir="libs" />
         <source-file src="libs/android/chartboost-6.6.1.jar" target-dir="libs" />
         <source-file src="libs/android/dagger-2.7.jar" target-dir="libs" />
-        <source-file src="libs/android/facebook-audience-network-4.12.1.jar" target-dir="libs" />
+        <source-file src="libs/android/facebook-audience-network-4.22.0.jar" target-dir="libs" />
         <source-file src="libs/android/flurry-ads-6.6.0.jar" target-dir="libs" />
         <source-file src="libs/android/flurry-analytics-6.6.0.jar" target-dir="libs" />
 		<source-file src="libs/android/inmobi-6.1.1.jar" target-dir="libs" />
