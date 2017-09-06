@@ -6,35 +6,37 @@
 //
 //
 
-/* Are you using Swift in your project?
-For convenience, this file provides #imports for
-all SDK classes. Just add an #import of this file
-into your Bridging-Heeader.h file for Swift. */
+/**
+ * Are you using Swift in your project?
+ * For convenience, this file provides #imports for
+ * all SDK classes. Just add an #import of this file
+ * into your Bridging-Header.h file for Swift.
+ */
 
 // Core SDK
-#import <AppLovinSdk/ALErrorCodes.h>
-#import <AppLovinSdk/ALSdk.h>
-#import <AppLovinSdk/ALSdkSettings.h>
-#import <AppLovinSdk/ALTargetingData.h>
-#import <AppLovinSdk/ALPostbackService.h>
-#import <AppLovinSdk/ALPostbackDelegate.h>
+#import "ALErrorCodes.h"
+#import "ALSdk.h"
+#import "ALSdkSettings.h"
+#import "ALPostbackService.h"
+#import "ALPostbackDelegate.h"
 
 // Standard Ads
-#import <AppLovinSdk/ALAd.h>
-#import <AppLovinSdk/ALAdDisplayDelegate.h>
-#import <AppLovinSdk/ALAdLoadDelegate.h>
-#import <AppLovinSdk/ALAdRewardDelegate.h>
-#import <AppLovinSdk/ALAdService.h>
-#import <AppLovinSdk/ALAdSize.h>
-#import <AppLovinSdk/ALAdType.h>
-#import <AppLovinSdk/ALAdUpdateDelegate.h>
-#import <AppLovinSdk/ALAdVideoPlaybackDelegate.h>
-#import <AppLovinSdk/ALAdView.h>
-#import <AppLovinSdk/ALIncentivizedInterstitialAd.h>
-#import <AppLovinSdk/ALInterstitialAd.h>
+#import "ALAd.h"
+#import "ALAdDisplayDelegate.h"
+#import "ALAdLoadDelegate.h"
+#import "ALAdRewardDelegate.h"
+#import "ALAdService.h"
+#import "ALAdSize.h"
+#import "ALAdType.h"
+#import "ALAdUpdateDelegate.h"
+#import "ALAdVideoPlaybackDelegate.h"
+#import "ALAdView.h"
+#import "ALAdViewEventDelegate.h"
+#import "ALIncentivizedInterstitialAd.h"
+#import "ALInterstitialAd.h"
 
 // Native Ads
-#import <AppLovinSdk/ALNativeAd.h>
-#import <AppLovinSdk/ALNativeAdService.h>
-#import <AppLovinSdk/ALNativeAdPrecacheDelegate.h>
-#import <AppLovinSdk/ALNativeAdLoadDelegate.h>
+#import "ALNativeAd.h"
+#import "ALNativeAdService.h"
+#import "ALNativeAdPrecacheDelegate.h"
+#import "ALNativeAdLoadDelegate.h"
