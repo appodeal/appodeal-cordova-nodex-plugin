@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="com.appodeal.plugin" version="3.0.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="com.appodeal.plugin" version="3.0.2" xmlns:android="http://schemas.android.com/apk/res/android" xmlns="http://apache.org/cordova/ns/plugins/1.0">
   <name>Appodeal Plugin</name>
   <description>Appodeal Plugin</description>
   <author>Appodeal</author>
 
   <engines>
-    <engine name="cordova" version=">=3.0.2" />
+    <engine name="cordova" version=">=5.0.0" />
     </engines>
 
     <js-module name="AppodealPlugin" src="www/appodeal.js">
@@ -25,7 +25,7 @@
 			<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!--optional -->
 			<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!--optional-->
         </config-file>
-        <framework src="com.google.android.gms:play-services-ads:9+" />
+        <framework src="com.google.android.gms:play-services-ads:+" />
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
 			<activity android:name="com.appodeal.ads.InterstitialActivity"
 				android:configChanges="orientation|screenSize"
