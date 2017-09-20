@@ -1,7 +1,7 @@
 # Appodeal Cordova Plugin No Dex
 
 This is official Appodeal Cordova plugin, created to support Appodeal SDK with Apache Cordova.
-This version supports android platform only. Use it in case if you receive "method ID not in [0, 0xffff]: 65536" build error with other versions.
+Use it when you have enabled multiDex support.
 
 ## SDK
 [![](https://img.shields.io/badge/docs-here-green.svg)](appodeal.com/sdk/cordova2)
