@@ -5,7 +5,7 @@
   <author>Appodeal</author>
 
   <engines>
-    <engine name="cordova" version=">=3.0.1" />
+    <engine name="cordova" version=">=3.0.2" />
     </engines>
 
     <js-module name="AppodealPlugin" src="www/appodeal.js">
