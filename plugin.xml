@@ -225,7 +225,7 @@
         </config-file>
         <source-file src="src/android/AppodealPlugin.java" target-dir="src/com/appodeal/plugin" />
         <source-file src="libs/Android/applovin-7.3.2.jar" target-dir="libs" />
-        <source-file src="libs/Android/appodeal-2.1.3.jar" target-dir="libs" />
+        <source-file src="libs/Android/appodeal-2.1.4.jar" target-dir="libs" />
         <source-file src="libs/Android/chartboost-6.6.3.jar" target-dir="libs" />
         <source-file src="libs/Android/dagger-2.7.jar" target-dir="libs" />
         <source-file src="libs/Android/eventbus-2.2.1.jar" target-dir="libs" />
