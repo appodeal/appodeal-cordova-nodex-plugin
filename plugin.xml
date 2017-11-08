@@ -224,19 +224,19 @@
         
         </config-file>
         <source-file src="src/android/AppodealPlugin.java" target-dir="src/com/appodeal/plugin" />
-        <source-file src="libs/Android/applovin-7.3.2.jar" target-dir="libs" />
-        <source-file src="libs/Android/appodeal-2.1.4.jar" target-dir="libs" />
+        <source-file src="libs/Android/applovin-7.4.0.jar" target-dir="libs" />
+        <source-file src="libs/Android/appodeal-2.1.7.jar" target-dir="libs" />
         <source-file src="libs/Android/appodeal-banner-view-2.3.0.jar" target-dir="libs" />
         <source-file src="libs/Android/chartboost-6.6.3.jar" target-dir="libs" />
         <source-file src="libs/Android/dagger-2.7.jar" target-dir="libs" />
         <source-file src="libs/Android/eventbus-2.2.1.jar" target-dir="libs" />
-        <source-file src="libs/Android/facebook-4.25.0.jar" target-dir="libs" />
+        <source-file src="libs/Android/facebook-4.26.0.jar" target-dir="libs" />
         <source-file src="libs/Android/ironsource-6.6.2.1.jar" target-dir="libs" />
         <source-file src="libs/Android/javax.inject-1.jar" target-dir="libs" />
         <source-file src="libs/Android/rxjava-1.2.0.jar" target-dir="libs" />
         <source-file src="libs/Android/tapjoy-11.11.0.jar" target-dir="libs" />
 		<source-file src="libs/Android/vungle-sdk-android-5.1.0.jar" target-dir="libs" />
-		<source-file src="libs/Android/yandex-mobileads-2.60.jar" target-dir="libs" />
+		<source-file src="libs/Android/yandex-mobileads-2.61.jar" target-dir="libs" />
         <source-file src="libs/Android/inmobi-6.2.3.jar" target-dir="libs" />
         <source-file src="libs/Android/picasso-2.5.2.jar" target-dir="libs" />
         <source-file src="libs/Android/mailru-4.6.17.jar" target-dir="libs" />
