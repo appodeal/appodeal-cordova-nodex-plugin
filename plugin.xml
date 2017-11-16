@@ -223,6 +223,7 @@
         
         </config-file>
         <source-file src="src/android/AppodealPlugin.java" target-dir="src/com/appodeal/plugin" />
+        <framework src="src/android/dependency_fix.gradle" custom="true" type="gradleReference" />
         <source-file src="libs/Android/applovin-7.3.2.jar" target-dir="libs" />
         <source-file src="libs/Android/appodeal-2.1.4.jar" target-dir="libs" />
         <source-file src="libs/Android/appodeal-banner-view-2.3.0.jar" target-dir="libs" />
